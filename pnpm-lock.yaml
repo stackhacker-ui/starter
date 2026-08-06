@@ -12,8 +12,8 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3
       '@nuxt/icon':
-        specifier: ^2.2.1
-        version: 2.2.1(magic-string@1.1.0)(magicast@0.5.2)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.27.7)(rolldown@1.2.1)(rollup@4.60.2)(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0)))(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3))
+        specifier: ^2.4.1
+        version: 2.4.1(magic-string@1.1.0)(magicast@0.5.2)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.27.7)(rolldown@1.2.1)(rollup@4.60.2)(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0)))(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3))
       '@nuxtjs/color-mode':
         specifier: ^3.5.2
         version: 3.5.2(magicast@0.5.2)
@@ -703,19 +703,19 @@ packages:
   '@iconify-json/mdi@1.2.3':
     resolution: {integrity: sha512-O3cLwbDOK7NNDf2ihaQOH5F9JglnulNDFV7WprU2dSoZu3h3cWH//h74uQAB87brHmvFVxIOkuBX2sZSzYhScg==}
 
-  '@iconify/collections@1.0.677':
-    resolution: {integrity: sha512-Uwbl1p26Md6m2xTMjalJsmQ43YxW+j6RsyrL5RnxRCHEhwympJlaBBCGTKrqI3sA93g9UVJ/Pxi7zDqM3E1oPw==}
+  '@iconify/collections@1.0.719':
+    resolution: {integrity: sha512-v3I7sBgR0UWOr6y4bXGiuNrOOl9d+tRDPg1d7vfQHofQ4nTt3AU15S2UsePjHztYAc7ptSPUTT74Io2M7Y1CZg==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
 
-  '@iconify/utils@3.1.1':
-    resolution: {integrity: sha512-MwzoDtw9rO1x+qfgLTV/IVXsHDBqeYZoMIQC8SfxfYSlaSUG+oWiAcoiB1yajAda6mqblm4/1/w2E8tRu7a7Tw==}
+  '@iconify/utils@3.1.4':
+    resolution: {integrity: sha512-b1S7B1k9ohZ+iNTi2ATxbRYG9fTrJmUT0rc46bvVnNxqNRGW7dyo/vRREwyniI5IRN2RSJHDcm+s3BjWrSAjHw==}
 
-  '@iconify/vue@5.0.0':
-    resolution: {integrity: sha512-C+KuEWIF5nSBrobFJhT//JS87OZ++QDORB6f2q2Wm6fl2mueSTpFBeBsveK0KW9hWiZ4mNiPjsh6Zs4jjdROSg==}
+  '@iconify/vue@5.0.1':
+    resolution: {integrity: sha512-aumwwooJlFJ5H5qYWB6ZTAyM0C8hpfcSVLB9/a3qnH1GGvIJ+FEbpEs4s/HfErYe/M5qZeLjwmESR5fFm3lXEw==}
     peerDependencies:
-      vue: '>=3'
+      vue: '>=3.0.0'
 
   '@internationalized/date@3.12.1':
     resolution: {integrity: sha512-6IedsVWXyq4P9Tj+TxuU8WGWM70hYLl12nbYU8jkikVpa6WXapFazPUcHUMDMoWftIDE2ILDkFFte6W2nFCkRQ==}
@@ -909,8 +909,8 @@ packages:
       vite-plugin-eslint2:
         optional: true
 
-  '@nuxt/icon@2.2.1':
-    resolution: {integrity: sha512-GI840yYGuvHI0BGDQ63d6rAxGzG96jQcWrnaWIQKlyQo/7sx9PjXkSHckXUXyX1MCr9zY6U25Td6OatfY6Hklw==}
+  '@nuxt/icon@2.4.1':
+    resolution: {integrity: sha512-fOY3kiT6OoL4bWXVmMLc1VgoCm1PxIGSBmsSaLO090NEgtd1ub441dZ7MEoOD5UIilWzba1kCWdwJcAkGCOwLg==}
 
   '@nuxt/kit@3.21.2':
     resolution: {integrity: sha512-Bd6m6mrDrqpBEbX+g0rc66/ALd1sxlgdx5nfK9MAYO0yKLTOSK7McSYz1KcOYn3LQFCXOWfvXwaqih/b+REI1g==}
@@ -3092,6 +3092,9 @@ packages:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
     engines: {node: '>=6'}
 
+  import-meta-resolve@4.2.0:
+    resolution: {integrity: sha512-Iqv2fzaTQN28s/FwZAoFq0ZSs/7hMAHJVX+w8PZl3cY19Pxk6jFFalxQoIfW2826i/fDLXv8IiEZRIT0lDuWcg==}
+
   impound@1.1.6:
     resolution: {integrity: sha512-ugavDQkE74SGrBjagNIwNVHNBxX14mmfQnTm4jFGzOoWwYsgihqV698BNr5xwRY9quKK4rEg8bc6ECltllMr+w==}
 
@@ -4319,9 +4322,6 @@ packages:
   statuses@2.0.2:
     resolution: {integrity: sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==}
     engines: {node: '>= 0.8'}
-
-  std-env@3.10.0:
-    resolution: {integrity: sha512-5GS12FdOZNliM5mAOxFRg7Ir0pWz8MdpYm6AY6VPkGpbA7ZzmbzNcBJQ0GPvvyWgcY7QAhCgf9Uy89I03faLkg==}
 
   std-env@4.2.0:
     resolution: {integrity: sha512-oCUKSupKTHX53EyjDtuZQ64pjLJ6yYCtpmEw0goYxtjG9KpbRe8KAsl2tBUGU9DyMcJ0RwJ8GqJAFzMXcXW1Rw==}
@@ -5575,19 +5575,19 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify/collections@1.0.677':
+  '@iconify/collections@1.0.719':
     dependencies:
       '@iconify/types': 2.0.0
 
   '@iconify/types@2.0.0': {}
 
-  '@iconify/utils@3.1.1':
+  '@iconify/utils@3.1.4':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@iconify/types': 2.0.0
-      mlly: 1.8.2
+      import-meta-resolve: 4.2.0
 
-  '@iconify/vue@5.0.0(vue@3.5.40(typescript@5.9.3))':
+  '@iconify/vue@5.0.1(vue@3.5.40(typescript@5.9.3))':
     dependencies:
       '@iconify/types': 2.0.0
       vue: 3.5.40(typescript@5.9.3)
@@ -5963,22 +5963,22 @@ snapshots:
       - utf-8-validate
       - vite
 
-  '@nuxt/icon@2.2.1(magic-string@1.1.0)(magicast@0.5.2)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.27.7)(rolldown@1.2.1)(rollup@4.60.2)(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0)))(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3))':
+  '@nuxt/icon@2.4.1(magic-string@1.1.0)(magicast@0.5.2)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.27.7)(rolldown@1.2.1)(rollup@4.60.2)(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0)))(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0))(vue@3.5.40(typescript@5.9.3))':
     dependencies:
-      '@iconify/collections': 1.0.677
+      '@iconify/collections': 1.0.719
       '@iconify/types': 2.0.0
-      '@iconify/utils': 3.1.1
-      '@iconify/vue': 5.0.0(vue@3.5.40(typescript@5.9.3))
+      '@iconify/utils': 3.1.4
+      '@iconify/vue': 5.0.1(vue@3.5.40(typescript@5.9.3))
       '@nuxt/devtools-kit': 3.4.0(magic-string@1.1.0)(magicast@0.5.2)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.27.7)(rolldown@1.2.1)(rollup@4.60.2)(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0)))(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0))
       '@nuxt/kit': 4.5.1(magic-string@1.1.0)(magicast@0.5.2)(oxc-parser@0.140.0)(rolldown@1.2.1)(unplugin@3.3.0(esbuild@0.27.7)(rolldown@1.2.1)(rollup@4.60.2)(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0)))
       consola: 3.4.2
       local-pkg: 1.2.1
       mlly: 1.8.2
       ohash: 2.0.11
-      pathe: 2.0.3
       picomatch: 4.0.5
-      std-env: 3.10.0
+      std-env: 4.2.0
       tinyglobby: 0.2.17
+      ufo: 1.6.4
     transitivePeerDependencies:
       - magic-string
       - magicast
@@ -8230,6 +8230,8 @@ snapshots:
       parent-module: 1.0.1
       resolve-from: 4.0.0
 
+  import-meta-resolve@4.2.0: {}
+
   impound@1.1.6(esbuild@0.27.7)(rolldown@1.2.1)(rollup@4.60.2)(vite@8.2.0(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.7.0)(terser@5.46.2)(yaml@2.9.0)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
@@ -9681,8 +9683,6 @@ snapshots:
   standard-as-callback@2.1.0: {}
 
   statuses@2.0.2: {}
-
-  std-env@3.10.0: {}
 
   std-env@4.2.0: {}
 
