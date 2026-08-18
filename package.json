@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.17.0",
-    "@vue/language-core": "^3.3.9",
+    "@vue/language-core": "^3.3.10",
     "eslint": "^9.39.5",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.3.9"
